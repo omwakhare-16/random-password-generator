@@ -1,53 +1,19 @@
-🔐 Random Password Generator
+# Getting Started
+Install the dependencies and run the project
+```
+npm install
+npm start
+```
 
-A simple and secure random password generator built using HTML, CSS, and JavaScript.
-This project generates strong random passwords using a mix of uppercase letters, lowercase letters, numbers, and symbols.
+Head over to https://vitejs.dev/ to learn more about configuring vite
+## About Scrimba
 
-🚀 Features
+At Scrimba our goal is to create the best possible coding school at the cost of a gym membership! 💜
+If we succeed with this, it will give anyone who wants to become a software developer a realistic shot at succeeding, regardless of where they live and the size of their wallets 🎉
+The Fullstack Developer Path aims to teach you everything you need to become a Junior Developer, or you could take a deep-dive with one of our advanced courses 🚀
 
--Generates random passwords instantly
--Includes uppercase, lowercase, numbers, and special characters
--Generates two passwords at once
--Clean and modern UI
--Lightweight and fast (no external libraries)
+- [Our courses](https://scrimba.com/courses)
+- [The Frontend Career Path](https://scrimba.com/fullstack-path-c0fullstack)
+- [Become a Scrimba Pro member](https://scrimba.com/pricing)
 
-🛠️ Technologies Used
-
--HTML5
--CSS3
--JavaScript (Vanilla JS)
-
-
-Random Password Generator
-│
-├── index.html
-├── index.js
-├── public/
-│   └── styles/
-│       └── main.css
-└── README.md
-
-
-⚙️ How It Works
-
-A predefined array contains all possible characters.
-
-A random index is generated using Math.random().
-
-Characters are selected and combined to create a password.
-
-The generated passwords are displayed dynamically in the browser using DOM manipulation.
-
-▶️ How To Run
-
--Download or clone the repository.
--Open index.html in your browser
-OR
--Use Live Server in VS Code for a better experience.
-
-🎯 Future Improvements
-
--User-selected password length
--Toggle options (uppercase, lowercase, numbers, symbols)
--Copy to clipboard feature
--Password strength indicator
+Happy Coding!

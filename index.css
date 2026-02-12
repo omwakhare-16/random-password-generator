@@ -1,0 +1,97 @@
+@import url('https://fonts.googleapis.com/css2?family=Karla:ital,wght@0,200..800;1,200..800&display=swap');
+*{
+    box-sizing: border-box;
+    padding: 0;
+    margin: 0;
+    
+}
+
+body{
+    font-family: "Karla", sans-serif;
+    background-color: #1C1C1C;
+    animation: fadeIn 0.8s ease-in-out;
+}
+
+.container{
+    background-color: #1F2937;
+    width: 550px;
+    height: 550px;
+    margin: auto;
+    margin-top: 100px;
+    border-radius: 6px;
+    animation: fadeIn 0.8s ease-in-out;
+}
+
+h1{
+    letter-spacing: -0.5px;
+    font-weight: 900;
+    color: white;
+    padding-top: 115px;
+    padding-left: 52px;
+    padding-right: 144px;
+    animation: fadeIn 0.8s ease-in-out;
+}
+
+span{
+    color: #4ADF86;
+}
+
+.sub-title{
+    color: white;
+    font-weight: 300;
+    padding-left: 52px;
+    padding-top: 10px;
+    animation: fadeIn 0.8s ease-in-out;
+}
+
+.generate{
+    width: 191px;
+    height: 42px;
+    margin-left: 52px;
+    border: none;
+    border-radius: 6px;
+    margin-top:51px;
+    background-color: #10B981;
+    color: white;
+    font-weight: 500;
+    animation: fadeIn 0.8s ease-in-out;
+}
+.generate:hover{
+    background-color: #0E9F6E;
+}
+
+hr{
+    width: 446px;
+    margin-left: 52px;
+    margin-top: 35px;
+    border: none;
+    border-top: 2px solid #2F3E53;
+}
+
+#pass{
+    margin-left: 52px;
+    margin-top: 35px;
+    animation: fadeIn 0.8s ease-in-out;
+}
+
+.password{
+    width: 211px;
+    height: 39px;
+    border: none;
+    border-radius: 6px;
+    color: #55F991;
+    background-color: #273549;
+    margin-right: 24px;
+}
+
+
+@keyframes fadeIn {
+  from {
+    opacity: 0;
+    transform: translateY(10px);
+  }
+  to {
+    opacity: 1;
+    transform: translateY(0);
+  }
+}
